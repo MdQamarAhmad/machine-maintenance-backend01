@@ -15,7 +15,8 @@ const app = express();
 // CORS
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: [ "http://localhost:5173",
+    "https://machinemaintenance.netlify.app",]
     credentials: true,
   })
 );
