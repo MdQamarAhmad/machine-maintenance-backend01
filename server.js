@@ -15,7 +15,7 @@ const app = express();
 // CORS
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://glowing-alpaca-2d3943.netlify.app",
+  "https://machine-maintenance-frontend.vercel.app",
 ];
 
 app.use(
